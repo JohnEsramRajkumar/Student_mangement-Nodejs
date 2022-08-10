@@ -1,0 +1,9 @@
+[
+    {"subj_id": 1 , "subject": "Maths","courseid": 1 },
+    {"subj_id": 2 , "subject": "Cpp","courseid": 1 },
+    {"subj_id": 3 , "subject": "Social,","courseid": 2},
+    {"subj_id": 4 , "subject": "Electric,","courseid": 2},
+    {"subj_id": 5 , "subject": "Physics,","courseid": 3},
+    {"subj_id": 6 , "subject": "Mechanics,","courseid": 3}
+    
+]

@@ -1,0 +1,38 @@
+kind: Deployment
+apiVersion: apps/v1
+metadata:
+  name: entiredata
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: entiredata
+  template:
+    metadata:
+      labels:
+        app: entiredata
+    spec:
+      containers:
+        - name: entiredata
+          image: localhost:5001/entiredata
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80
+      restartPolicy: Always
+
+---
+
+kind: Service
+apiVersion: v1
+metadata:
+  name: entiredata
+spec:
+  type: NodePort
+  ports:
+    - port: 80
+      targetPort: 80
+      protocol: TCP
+      nodePort: 31001
+  selector:
+    app: entiredata
+

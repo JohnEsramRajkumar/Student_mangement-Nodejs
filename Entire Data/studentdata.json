@@ -1,0 +1,5 @@
+[
+    {"st_id": 1 , "name": "ABC",  "Age": 18, "Place": "TVM", "courseid": 1},
+    {"st_id": 2 , "name": "XYZ",  "Age": 20, "Place": "TVM", "courseid": 2},
+    {"st_id": 3 , "name": "ASD",  "Age": 20, "Place": "TVM", "courseid": 3}
+]
