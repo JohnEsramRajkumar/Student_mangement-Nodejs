@@ -1,0 +1,6 @@
+[
+    { "courseid": 1,  "course": "B.E Computer science", "subj_id": [1,2]},
+    { "courseid": 2,  "course": "B.E Electrical", "subj_id": [3,4]},
+    { "courseid": 3,  "course": "B.E Mechanical", "subj_id": [5,6]}
+    
+]
